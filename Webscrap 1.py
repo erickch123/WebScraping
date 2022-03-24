@@ -1,17 +1,3 @@
-#from bs4 import BeautifulSoup
-
-#with open('######','r') as filename: ##read the file only makanya ada r di second argument
- #   content = filename.read()
-  #  print
-
-   # soup = BeautifulSoup(content, 'lxml') ## what is lxml for
-    #prettify buat mempercantik
-    #soup.find('sadsds') buat yg pertama doang, sama soup.find_all beda bos
-    # for course in courses, print (course.text)biar gada h5 h5 nya
-    #class_= < perlu karena class is a built in keywordk in python
-    # sometimes jg course.h5.text sama course.a.test
-    # print(f'{course_name} costs {course_price}') <<< what the hell f means
-
 
 from bs4 import BeautifulSoup
 import requests
